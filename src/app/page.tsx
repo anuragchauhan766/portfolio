@@ -24,7 +24,7 @@ export default function Home() {
               height={24}
               priority
             />
-          </a>
+          </a>  <p> hello</p>
         </div>
       </div>
 
