@@ -1,6 +1,11 @@
 {
+  "$schema": "https://json.schemastore.org/eslintrc.json",
   "extends": [
-    "next/core-web-vitals",
+    "eslint:recommended",
+    "next",
     "prettier"
-  ]
+  ],
+  "globals": {
+    "React": true
+  }
 }

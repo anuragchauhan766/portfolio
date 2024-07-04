@@ -6,8 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "lint:fix": "next lint --fix",
+    "lint": "eslint src --ext js,jsx,ts,tsx --max-warnings 2 --report-unused-disable-directives",
+    "lint:fix": "eslint src --ext js,jsx,ts,tsx --fix",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,html}'",
     "format:check": "prettier --check 'src/**/*.{js,jsx,ts,tsx,css,html}'",
     "prepare": "husky"
@@ -34,7 +34,7 @@
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
       "pnpm run format",
-      "pnpm run lint"
+      "eslint src --ext js,jsx,ts,tsx --max-warnings 2 --report-unused-disable-directives"
     ],
     "*.{css,scss,less}": "prettier --write"
   }
