@@ -1,0 +1,5 @@
+# Ignore artifacts:
+.next/
+
+# Ignore specific file
+pnpm-lock.yaml
