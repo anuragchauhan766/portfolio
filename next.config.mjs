@@ -5,6 +5,14 @@ const nextConfig = {
       fullUrl: true,
     },
   },
+
+  images: {
+    remotePatterns: [
+      {
+        hostname: "api.microlink.io",
+      },
+    ],
+  },
 };
 
 export default nextConfig;
