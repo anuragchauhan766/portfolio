@@ -5,10 +5,11 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import SocialIcon from "./ui/SocialIcon";
 import { SocialLinks } from "@/data/social";
+import { ThemeSwitcher } from "./common/ThemeSwitcher";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-20">
+    <div className="pb-20 pt-28">
       <div>
         <Spotlight
           className="-left-10 -top-40 h-screen md:-left-32 md:-top-20"
@@ -30,8 +31,9 @@ const Hero = () => {
             link={link.link}
           />
         ))}
+        <ThemeSwitcher />
       </div>
-      <div className="relative z-10 my-20 flex justify-center">
+      <div className="relative my-20 flex justify-center">
         <div className="flex max-w-[89vw] flex-col items-center justify-center md:max-w-2xl lg:max-w-[67vw]">
           <TextGenerateEffect
             words="Hii! I'm Anurag Singh Chauhan, a Full Stack Developer."

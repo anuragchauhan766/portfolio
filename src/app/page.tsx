@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import Skills from "@/components/Skills";
 import { HeroHighlight } from "@/components/ui/BackgroundHighlight";
 
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
@@ -26,6 +27,7 @@ export default function Home() {
               ]}
             />
             <Hero />
+            <Skills />
           </div>
         </div>
       </HeroHighlight>

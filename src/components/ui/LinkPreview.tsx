@@ -79,13 +79,13 @@ export const LinkPreview = ({
   return (
     <>
       {isMounted ? (
-        <div className="hidden">
+        <div className="z-50 hidden">
           <Image
             src={src}
             width={width}
             height={height}
             quality={quality}
-            layout={layout}
+            className="fixed"
             priority={true}
             alt="hidden image"
           />
@@ -109,7 +109,7 @@ export const LinkPreview = ({
         </HoverCardPrimitive.Trigger>
 
         <HoverCardPrimitive.Content
-          className="[transform-origin:var(--radix-hover-card-content-transform-origin)]"
+          className="z-10 [transform-origin:var(--radix-hover-card-content-transform-origin)]"
           side="top"
           align="center"
           sideOffset={10}
@@ -137,7 +137,7 @@ export const LinkPreview = ({
                 <Link
                   href={url}
                   target={target}
-                  className="block rounded-xl border-2 border-transparent bg-white p-1 shadow hover:border-neutral-200 dark:hover:border-neutral-800"
+                  className="z-50 block rounded-xl border-2 border-transparent bg-white p-1 shadow hover:border-neutral-200 dark:hover:border-neutral-800"
                   style={{ fontSize: 0 }}
                 >
                   <Image
@@ -147,7 +147,7 @@ export const LinkPreview = ({
                     quality={quality}
                     layout={layout}
                     priority={true}
-                    className="rounded-lg"
+                    className="z-50 rounded-lg"
                     alt="preview image"
                   />
                 </Link>
