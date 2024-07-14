@@ -13,7 +13,7 @@ export const projects = [
     githubLink: "https://github.com/anuragchauhan766/twitter-clone",
   },
   {
-    id: 0,
+    id: 1,
     name: "Twitter Clone",
     description:
       "A Complete social Media app just like twitter , connect with people around the world.",
@@ -24,7 +24,7 @@ export const projects = [
     githubLink: "https://github.com/anuragchauhan766/twitter-clone",
   },
   {
-    id: 0,
+    id: 2,
     name: "Twitter Clone",
     description:
       "A Complete social Media app just like twitter , connect with people around the world.",
@@ -35,7 +35,7 @@ export const projects = [
     githubLink: "https://github.com/anuragchauhan766/twitter-clone",
   },
   {
-    id: 0,
+    id: 3,
     name: "Twitter Clone",
     description:
       "A Complete social Media app just like twitter , connect with people around the world.",

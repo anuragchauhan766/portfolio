@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const ProjectSection = () => {
   return (
-    <div className="py-20">
+    <div className="py-20" id="projects">
       <h1 className="heading">
         My <span className="text-purple">Projects</span>
       </h1>

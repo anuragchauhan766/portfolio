@@ -1,3 +1,4 @@
+import ContactUs from "@/components/ContactUs";
 import Hero from "@/components/Hero";
 import ProjectSection from "@/components/Projects";
 import { HeroHighlight } from "@/components/ui/BackgroundHighlight";
@@ -14,21 +15,22 @@ export default function Home() {
               navItems={[
                 {
                   name: "Home",
-                  link: "/",
+                  link: "/#home",
                 },
                 {
-                  name: "About",
-                  link: "/about",
+                  name: "Projects",
+                  link: "#projects",
                 },
                 {
                   name: "Contact",
-                  link: "/contact",
+                  link: "#contact",
                 },
               ]}
             />
             <Hero />
             {/* <Skills /> */}
             <ProjectSection />
+            <ContactUs />
           </div>
         </div>
       </HeroHighlight>

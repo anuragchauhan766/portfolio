@@ -6,10 +6,11 @@ import MagicButton from "./ui/MagicButton";
 import SocialIcon from "./ui/SocialIcon";
 import { SocialLinks } from "@/data/social";
 import { ThemeSwitcher } from "./common/ThemeSwitcher";
+import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-28">
+    <div className="pb-20 pt-28" id="home">
       <div>
         <Spotlight
           className="-left-10 -top-40 h-screen md:-left-32 md:-top-20"
@@ -46,13 +47,13 @@ const Hero = () => {
            *
            */}
 
-          <a href="#about">
+          <Link href="#projects">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
               position="right"
             />
-          </a>
+          </Link>
         </div>
       </div>
     </div>
