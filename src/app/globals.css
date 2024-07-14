@@ -74,6 +74,12 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .heading {
+    @apply text-center text-4xl font-bold md:text-5xl;
+  }
+}
 .no-visible-scrollbar {
   scrollbar-width: none;
   -ms-overflow-style: none;

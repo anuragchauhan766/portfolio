@@ -1,5 +1,5 @@
 import Hero from "@/components/Hero";
-import Skills from "@/components/Skills";
+import ProjectSection from "@/components/Projects";
 import { HeroHighlight } from "@/components/ui/BackgroundHighlight";
 
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
@@ -27,7 +27,8 @@ export default function Home() {
               ]}
             />
             <Hero />
-            <Skills />
+            {/* <Skills /> */}
+            <ProjectSection />
           </div>
         </div>
       </HeroHighlight>
